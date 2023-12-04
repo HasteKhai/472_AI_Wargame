@@ -1,0 +1,179 @@
+Game Parameters:
+Value of the timeout: 7 seconds
+Max number of turns: 15
+Alpha-Beta: True
+Player 1: Attacker is an AI. Heuristic: e2
+Player 2: Defender is an AI. Heuristic: e2
+
+Initial Configuration Of The Board:
+
+    0   1   2   3   4  
+A: dA9 dT9 dF9  .   .  
+B: dT9 dP9  .   .   .  
+C: dF9  .   .   .  aP9 
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+==========================================
+
+Turn #1
+Name of Player: Attacker
+Action taken: Move from C4 to B4
+Time for this action: 9.617345571517944
+Heuristic score: -28
+Cumulative evals: 400M
+
+New Configuration Of The Board:
+
+    0   1   2   3   4  
+A: dA9 dT9 dF9  .   .  
+B: dT9 dP9  .   .  aP9 
+C: dF9  .   .   .   .  
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+==========================================
+
+Turn #2
+Name of Player: Defender
+Action taken: Self-Destruct at A1
+Time for this action: 9.251621007919312
+Heuristic score: 39
+Cumulative evals: 1380M
+
+New Configuration Of The Board:
+
+    0   1   2   3   4  
+A: dA7  .  dF7  .   .  
+B: dT7 dP7  .   .  aP9 
+C: dF9  .   .   .   .  
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+==========================================
+
+Turn #3
+Name of Player: Attacker
+Action taken: Move from B4 to A4
+Time for this action: 9.895322322845459
+Heuristic score: -6
+Cumulative evals: 2361M
+
+New Configuration Of The Board:
+
+    0   1   2   3   4  
+A: dA7  .  dF7  .  aP9 
+B: dT7 dP7  .   .   .  
+C: dF9  .   .   .   .  
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+==========================================
+
+Turn #4
+Name of Player: Defender
+Action taken: Move from A0 to A1
+Time for this action: 9.642014265060425
+Heuristic score: 27
+Cumulative evals: 3456M
+
+New Configuration Of The Board:
+
+    0   1   2   3   4  
+A:  .  dA7 dF7  .  aP9 
+B: dT7 dP7  .   .   .  
+C: dF9  .   .   .   .  
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+==========================================
+
+Turn #5
+Name of Player: Attacker
+Action taken: Move from A4 to A3
+Time for this action: 10.12846851348877
+Heuristic score: -8
+Cumulative evals: 4469M
+
+New Configuration Of The Board:
+
+    0   1   2   3   4  
+A:  .  dA7 dF7 aP9  .  
+B: dT7 dP7  .   .   .  
+C: dF9  .   .   .   .  
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+==========================================
+
+Turn #6
+Name of Player: Defender
+Action taken: Self-Destruct at A2
+Time for this action: 8.812423944473267
+Heuristic score: 44
+Cumulative evals: 5654M
+
+New Configuration Of The Board:
+
+    0   1   2   3   4  
+A:  .  dA5  .  aP7  .  
+B: dT7 dP5  .   .   .  
+C: dF9  .   .   .   .  
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+==========================================
+
+Turn #7
+Name of Player: Attacker
+Action taken: Move from A3 to A2
+Time for this action: 9.851238012313843
+Heuristic score: 0
+Cumulative evals: 6846M
+
+New Configuration Of The Board:
+
+    0   1   2   3   4  
+A:  .  dA5 aP7  .   .  
+B: dT7 dP5  .   .   .  
+C: dF9  .   .   .   .  
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+==========================================
+
+Turn #8
+Name of Player: Defender
+Action taken: Self-Destruct at B0
+Time for this action: 7.518829822540283
+Heuristic score: 41
+Cumulative evals: 7933M
+
+New Configuration Of The Board:
+
+    0   1   2   3   4  
+A:  .  dA3 aP7  .   .  
+B:  .  dP3  .   .   .  
+C: dF7  .   .   .   .  
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+==========================================
+
+Turn #9
+Name of Player: Attacker
+Action taken: Attack from A2 to A1
+Time for this action: 8.249934911727905
+Heuristic score: 41
+Cumulative evals: 9416M
+
+New Configuration Of The Board:
+
+    0   1   2   3   4  
+A:  .   .  aP4  .   .  
+B:  .  dP3  .   .   .  
+C: dF7  .   .   .   .  
+D:  .   .   .  aF9 aV9 
+E:  .   .  aP9 aV9 aA9 
+
+Attacker wins in 9 turns
